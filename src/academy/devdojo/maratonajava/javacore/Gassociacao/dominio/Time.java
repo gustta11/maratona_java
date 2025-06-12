@@ -14,10 +14,9 @@ public class Time {
     }
 
     public void imprime(){
-        System.out.println(this.nome);
         if(jogadores == null)return;
         for(Jogador jogador:jogadores){
-            System.out.println(jogador.getNome());
+            System.out.println(jogador.getNome()+ " do " + this.nome);
         }
     }
 
